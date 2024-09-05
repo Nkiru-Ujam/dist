@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 30%;
+  height: 75%;
+  background-color: black;
+  border-radius: 12px;
+}
+
+.container .input-answer-block {
+  width: 100%;
+  height: 20%;
+  color: white;
+  font-size: 1.8rem;
+  border: 2px solid goldenrod;
+  border-radius: 12px;
+}
+
+.container .input-answer-block .input {
+  padding: 10px;
+}
+
+.container .input-answer-block .answer {
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .calc-input {
+  width: 100%;
+  height: 16%;
+  color: white;
+}
+
+.container .calc-input .calc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .calc-input .calc p {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: rgba(56, 53, 53, 0.532);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .calc-input .calc .def {
+  background-color: #777676;
+  color: black;
+}
+
+.container .calc-input .calc .operator {
+  background-color: goldenrod;
+}
+/*# sourceMappingURL=index.css.map */
